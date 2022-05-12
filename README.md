@@ -7,7 +7,6 @@ Sequential and Parallel(using Open MP and Pthreads) Implementations(c++) of the 
   - `g++ main_sequential.c lab1_io.c Kmeans-Sequential.cpp -fopenmp -o seq.out`
   - `./seq.out 4 sample_dataset_50000_4.txt b.txt c.txt`
   - 4 is for the number of clusters. Can be changed.
-  - To Visualize the results :- `python visualise.py b.txt`
     
 - **OpenMP**
   - cd into OpenMP folder
